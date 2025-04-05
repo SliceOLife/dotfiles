@@ -1,0 +1,22 @@
+alias ll="eza -lh"
+alias la="eza -lah"
+alias cat="bat"
+alias ls="eza"
+
+# Directory Shortcuts
+alias home="cd ~/;eza -lh"
+alias desk="cd ~/Desktop;eza -lh"
+
+# Applications
+alias nano=/opt/homebrew/bin/nano
+alias finder="open ."
+
+# Editing Shortcuts
+alias zed="nano ~/.zshrc"
+alias alied="nano ~/.bash_aliases"
+
+# Python
+alias venv="source .venv/bin/activate"
+
+# Git
+alias gs="git status"
