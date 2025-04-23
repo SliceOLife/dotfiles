@@ -1,0 +1,6 @@
+[core]
+	editor = nano
+	autocrlf = input
+[user]
+	name = Jordi
+	email = me@jordify.nl

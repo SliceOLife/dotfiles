@@ -12,8 +12,9 @@ alias nano=/opt/homebrew/bin/nano
 alias finder="open ."
 
 # Editing Shortcuts
-alias zed="nano ~/.zshrc"
-alias alied="nano ~/.bash_aliases"
+alias zed="chezmoi edit ~/.zshrc"
+alias alied="chezmoi edit ~/.bash_aliases"
+alias exported="chezmoi edit ~/.exports"
 
 # Python
 alias venv="source .venv/bin/activate"
